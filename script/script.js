@@ -10,7 +10,8 @@ $(document).ready(function() {
 
         'items':1,
         'dot': false,
-        'loop': true
+        'loop': true,
+        'autoplay': true
 
 
 
