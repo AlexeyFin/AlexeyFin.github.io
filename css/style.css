@@ -303,6 +303,77 @@ main{
 
 
 
+.section-five{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.s5-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.s5-top h2{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.s5-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-carousel .owl-item img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.carousel-itm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-itm p{
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+    color: #8B8B92;
+}
+.carousel-itm h3{
+    margin-top: 20px;
+    color: #5480C7;
+    text-transform: uppercase;
+}
+
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.owl-dots span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin-right: 15px;
+
+    background-color: #E6E6E6;
+
+    border-radius: 50%;
+}
+.owl-dots .active span{
+    background-color: #4B4C52;
+}
+
+
 .s6-items{
     display: flex;
     margin-top:50px;
@@ -436,3 +507,5 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+
